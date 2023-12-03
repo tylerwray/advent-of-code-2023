@@ -1,6 +1,9 @@
 mod day_one;
 
 fn main() {
-    let calibration_value = day_one::find_calibration_value();
-    println!("Calibration Value - {}", calibration_value);
+    let digits_calibration = day_one::find_calibration_with_digits();
+    println!("Digits Calibration Value - {}", digits_calibration);
+
+    let all_calibration = day_one::find_calibration_with_all();
+    println!("All forms Calibration Value - {}", all_calibration);
 }
